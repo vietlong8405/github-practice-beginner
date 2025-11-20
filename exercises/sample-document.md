@@ -1,4 +1,4 @@
-# 🗂️ Document có lỗi Markdown - CẦN SỬA!
+﻿# 🗂️ Document có lỗi Markdown - CẦN SỬA!
 
 > ⚠️ **Chú ý:** File này cố tình có lỗi để sinh viên luyện tập sửa. Đây là bài tập 2.
 
@@ -50,3 +50,30 @@ Git và GitHub là công cụ không thể thiếu cho developer hiện đại.
 3. Practice với project thực tế
 
 > **Ghi chú**: File này được tạo để luyện tập sửa lỗi Markdown!
+ # 🗂️ Document có lỗi Markdown - ĐÃ SỬA!
+
+> ⚠️ **Chú ý:** File này đã được sửa lỗi bởi Viet Long.
+
+## Giới thiệu về GitHub
+GitHub là một platform phát triển phần mềm rất phổ biến.
+
+### Các tính năng chính
+
+- Repository hosting
+- Issue tracking
+- Pull requests
+- Actions (CI/CD)
+
+### Links hữu ích
+-[Trang chủ GitHub](https://github.com)
+- [Docs](https://docs.github.com)
+- [Link đã sửa](https://broken-link.com)
+
+### Code Example
+
+Đây là ví dụ JavaScript:
+
+```javascript
+function hello() {
+    console.log("Hello World!");
+}
