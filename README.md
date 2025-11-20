@@ -1,93 +1,103 @@
-# 🎯 GitHub Practice - Beginner Level
+    # 🎯 GitHub Practice - Beginner Level
 
-> **Repo luyện tập Git & GitHub cho sinh viên Việt Nam**
 
-## 📖 Giới thiệu
+    > **Repo luyện tập Git & GitHub cho sinh viên Việt Nam**
 
-Chào mừng bạn đến với repo luyện tập GitHub! Đây là nơi bạn sẽ học các thao tác Git/GitHub cơ bản thông qua các bài tập thực hành.
+    > **Repo luyện tập GitHub cho sinh viên HUST**
+    > **Repo luyện tập GitHub - Collaborative Learning cho sinh viên**
 
-**🎯 Mục tiêu:** Làm quen với workflow GitHub cơ bản trong 1 tuần
-✨ Updated by Viet Long
+    🤝 Được cập nhật bởi team: Viet Long & team member
 
-**👥 Đối tượng:** Sinh viên chưa có kinh nghiệm với Git/GitHub
+    ## 📖 Giới thiệu
 
-## 🚀 Những gì bạn sẽ học
+    Chào mừng bạn đến với repo luyện tập GitHub! Đây là nơi bạn sẽ học các thao tác Git/GitHub cơ bản thông qua các bài tập thực hành.
 
-- [x] **Fork** repository
-- [x] **Clone** về máy local
-- [x] Tạo **branch** mới
-- [x] **Commit** thay đổi
-- [x] **Push** lên GitHub
-- [x] Tạo **Pull Request**
-- [x] **Merge** code
-- [x] Giải quyết **conflict** cơ bản
+    **🎯 Mục tiêu:** Làm quen với workflow GitHub cơ bản trong 1 tuần
 
-## 📋 Hướng dẫn bắt đầu
+    ✨ Updated by Viet Long
 
-### Bước 1: Fork repo này
-1. Click nút **Fork** ở góc trên bên phải
-2. Chọn tài khoản GitHub của bạn
-3. Đợi quá trình fork hoàn tất
+    🔥 Updated by team member
 
-### Bước 2: Clone về máy
-```bash
-# Thay <your-username> bằng username GitHub của bạn
-git clone https://github.com/<your-username>/github-practice-beginner.git
-cd github-practice-beginner
-```
 
-### Bước 3: Tạo branch để làm việc
-```bash
-# Thay <your-name> bằng tên của bạn (không dấu, không space)
-git checkout -b <your-name>/bai-tap
-```
+    **👥 Đối tượng:** Sinh viên chưa có kinh nghiệm với Git/GitHub
 
-### Bước 4: Làm bài tập
-Xem thư mục `exercises/` để bắt đầu làm bài tập đầu tiên!
+    ## 🚀 Những gì bạn sẽ học
 
-### Bước 5: Commit và push
-```bash
-git add .
-git commit -m "Hoàn thành bài tập [số bài]"
-git push origin <your-name>/bai-tap
-```
+    - [x] **Fork** repository
+    - [x] **Clone** về máy local
+    - [x] Tạo **branch** mới
+    - [x] **Commit** thay đổi
+    - [x] **Push** lên GitHub
+    - [x] Tạo **Pull Request**
+    - [x] **Merge** code
+    - [x] Giải quyết **conflict** cơ bản
 
-### Bước 6: Tạo Pull Request
-1. Vào GitHub repo của bạn
-2. Click **Compare & pull request**
-3. Viết mô tả ngắn về bài tập đã làm
-4. Click **Create pull request**
+    ## 📋 Hướng dẫn bắt đầu
 
-## 📚 Tài liệu tham khảo
+    ### Bước 1: Fork repo này
+    1. Click nút **Fork** ở góc trên bên phải
+    2. Chọn tài khoản GitHub của bạn
+    3. Đợi quá trình fork hoàn tất
 
-- [Git Cheat Sheet](./resources/git-cheatsheet.md)
-- [Các lỗi thường gặp](./resources/common-issues.md)
-- [Glossary - Thuật ngữ](./resources/glossary.md)
+    ### Bước 2: Clone về máy
+    ```bash
+    # Thay <your-username> bằng username GitHub của bạn
+    git clone https://github.com/<your-username>/github-practice-beginner.git
+    cd github-practice-beginner
+    ```
 
-## 🏆 Tiến độ học tập
+    ### Bước 3: Tạo branch để làm việc
+    ```bash
+    # Thay <your-name> bằng tên của bạn (không dấu, không space)
+    git checkout -b <your-name>/bai-tap
+    ```
 
-- [ ] **Ngày 1-2:** Fork, Clone, Branch cơ bản
-- [ ] **Ngày 3-4:** Commit, Push, Pull Request
-- [ ] **Ngày 5-6:** Merge, Conflict resolution
-- [ ] **Ngày 7:** Ôn tập và hoàn thiện
+    ### Bước 4: Làm bài tập
+    Xem thư mục `exercises/` để bắt đầu làm bài tập đầu tiên!
 
-## 📞 Hỗ trợ
+    ### Bước 5: Commit và push
+    ```bash
+    git add .
+    git commit -m "Hoàn thành bài tập [số bài]"
+    git push origin <your-name>/bai-tap
+    ```
 
-Nếu gặp khó khăn, hãy:
-1. Đọc [Các lỗi thường gặp](./resources/common-issues.md)
-2. Tạo [Issue](../../issues) với label `help wanted`
-3. Hỏi trong group chat/forum
+    ### Bước 6: Tạo Pull Request
+    1. Vào GitHub repo của bạn
+    2. Click **Compare & pull request**
+    3. Viết mô tả ngắn về bài tập đã làm
+    4. Click **Create pull request**
 
-## 🎉 Kết thúc
+    ## 📚 Tài liệu tham khảo
 
-Sau khi hoàn thành tất cả bài tập, bạn sẽ có:
-- ✅ Hiểu được workflow GitHub cơ bản
-- ✅ Tự tin tạo Pull Request
-- ✅ Biết cách giải quyết conflict đơn giản
-- ✅ Profile GitHub đẹp hơn với các contribution
+    - [Git Cheat Sheet](./resources/git-cheatsheet.md)
+    - [Các lỗi thường gặp](./resources/common-issues.md)
+    - [Glossary - Thuật ngữ](./resources/glossary.md)
 
-**Chúc bạn học tập vui vẻ! 🚀**
+    ## 🏆 Tiến độ học tập
 
----
+    - [ ] **Ngày 1-2:** Fork, Clone, Branch cơ bản
+    - [ ] **Ngày 3-4:** Commit, Push, Pull Request
+    - [ ] **Ngày 5-6:** Merge, Conflict resolution
+    - [ ] **Ngày 7:** Ôn tập và hoàn thiện
 
-*Made with ❤️ for Vietnamese students*
+    ## 📞 Hỗ trợ
+
+    Nếu gặp khó khăn, hãy:
+    1. Đọc [Các lỗi thường gặp](./resources/common-issues.md)
+    2. Tạo [Issue](../../issues) với label `help wanted`
+    3. Hỏi trong group chat/forum
+
+    ## 🎉 Kết thúc
+
+    Sau khi hoàn thành tất cả bài tập, bạn sẽ có:
+    - ✅ Hiểu được workflow GitHub cơ bản
+    - ✅ Tự tin tạo Pull Request
+    - ✅ Biết cách giải quyết conflict đơn giản
+    - ✅ Profile GitHub đẹp hơn với các contribution
+
+    **Chúc bạn học tập vui vẻ! 🚀**
+
+    ---
+
+    *Made with ❤️ for Vietnamese students*
